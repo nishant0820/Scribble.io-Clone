@@ -54,21 +54,11 @@ body::before {
     z-index: -1;
 }
 
-footer,
 .help-footer {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1rem;
-}
-
-footer {
-    padding: 0.1rem;
-    background-color: lightslategray;
-    color: white;
-}
-
-.help-footer {
     flex-wrap: wrap;
 }
 
