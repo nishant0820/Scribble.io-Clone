@@ -1,19 +1,19 @@
 {{define "footer"}}
 {{if eq .Version "dev"}}
-<a class="footer-item" href="https://github.com/scribble-rs/scribble.rs" target="_blank">{{.Version}}</a>
+<a class="footer-item" href="https://github.com/scribble-rs/scribble.ng" target="_blank">{{.Version}}</a>
 {{else if ne .Commit ""}}
-<a class="footer-item" href="https://github.com/scribble-rs/scribble.rs/commit/{{.Commit}}"
+<a class="footer-item" href="https://github.com/scribble-rs/scribble.ng/commit/{{.Commit}}"
     target="_blank">{{.Version}}</a>
 {{else}}
-<a class="footer-item" href="https://github.com/scribble-rs/scribble.rs/releases/tag/{{.Version}}"
+<a class="footer-item" href="https://github.com/scribble-rs/scribble.ng/releases/tag/{{.Version}}"
     target="_blank">{{.Version}}</a>
 {{end}}
 {{if ne .Translation nil}}
-<a class="footer-item" href="https://github.com/scribble-rs/scribble.rs"
+<a class="footer-item" href="https://github.com/scribble-rs/scribble.ng"
     target="_blank">{{.Translation.Get "source-code"}}</a>
-<a class="footer-item" href="https://github.com/scribble-rs/scribble.rs/wiki"
+<a class="footer-item" href="https://github.com/scribble-rs/scribble.ng/wiki"
     target="_blank">{{.Translation.Get "help"}}</a>
-<a class="footer-item" href="https://github.com/scribble-rs/scribble.rs/issues/new"
+<a class="footer-item" href="https://github.com/scribble-rs/scribble.ng/issues/new"
     target="_blank">{{.Translation.Get "submit-feedback"}}</a>
 <a class="footer-item" href="{{.RootPath}}/v1/stats" target="_blank">{{.Translation.Get "stats"}}</a>
 {{end}}

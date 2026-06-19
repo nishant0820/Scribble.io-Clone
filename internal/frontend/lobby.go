@@ -5,10 +5,10 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/scribble-rs/scribble.rs/internal/api"
-	"github.com/scribble-rs/scribble.rs/internal/game"
-	"github.com/scribble-rs/scribble.rs/internal/state"
-	"github.com/scribble-rs/scribble.rs/internal/translations"
+	"github.com/scribble-rs/scribble.ng/internal/api"
+	"github.com/scribble-rs/scribble.ng/internal/game"
+	"github.com/scribble-rs/scribble.ng/internal/state"
+	"github.com/scribble-rs/scribble.ng/internal/translations"
 	"golang.org/x/text/language"
 )
 

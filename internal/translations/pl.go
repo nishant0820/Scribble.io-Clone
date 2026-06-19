@@ -98,7 +98,7 @@ func initPolishTranslation() {
 		"problem się utrzymuje, skontaktuj się z administratorem.")
 	translation.put("error-connecting", "Błąd połączenia z serwerem")
 	translation.put("error-connecting-text",
-		"Scribble.rs nie może połączyć się z socketem.\n\nTwoje połączenie z internetem "+
+		"scribble.ng nie może połączyć się z socketem.\n\nTwoje połączenie z internetem "+
 			"wydaje się działać, ale \nserver lub twoja zapora sieciowa nie "+
 			"zostały poprawnie skonfigurowane.\n\nOdśwież stronę aby spróbować ponownie.")
 

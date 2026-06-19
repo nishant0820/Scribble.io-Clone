@@ -115,7 +115,7 @@ func initPersianTranslation() *Translation {
 		"مشکل برقرار بود، با ادمین تماس بگیرید")
 	translation.put("error-connecting", "خطا در برقراری ارتباط با سرور")
 	translation.put("error-connecting-text",
-		"Scribble.rs نتونست ارتباط رو برقرار کنه\n\nدر حالی که اینترنتتون "+
+		"scribble.ng نتونست ارتباط رو برقرار کنه\n\nدر حالی که اینترنتتون "+
 			"به نظر میاد که کار می‌کنه، یا شاید\nسرور یا دیواره‌آتشتون  "+
 			"درست تنظیم نشده.\n\nبرای تلاش دوباره، صفحه رو دوباره باز کنید.")
 	translation.put("message-too-long", "پیام خیلی طولانیه.")

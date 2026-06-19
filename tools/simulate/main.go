@@ -13,7 +13,7 @@ import (
 
 	"github.com/gofrs/uuid/v5"
 	"github.com/lxzan/gws"
-	"github.com/scribble-rs/scribble.rs/internal/api"
+	"github.com/scribble-rs/scribble.ng/internal/api"
 )
 
 type body struct {

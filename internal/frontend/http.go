@@ -12,7 +12,7 @@ import (
 	"strings"
 
 	"github.com/gofrs/uuid/v5"
-	"github.com/scribble-rs/scribble.rs/internal/translations"
+	"github.com/scribble-rs/scribble.ng/internal/translations"
 )
 
 var (
@@ -44,7 +44,7 @@ type BasePageConfig struct {
 	// Commit that was deployed, if we didn't deploy a concrete tag.
 	Commit string `json:"commit"`
 	// RootPath is the path directly after the domain and before the
-	// scribble.rs paths. For example if you host scribblers on painting.com
+	// scribble.ng paths. For example if you host scribblers on painting.com
 	// but already host a different website, then your API paths might have to
 	// look like this: painting.com/scribblers/v1.
 	RootPath string `json:"rootPath"`

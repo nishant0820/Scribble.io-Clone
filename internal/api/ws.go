@@ -12,9 +12,9 @@ import (
 	"github.com/gofrs/uuid/v5"
 	"github.com/lxzan/gws"
 
-	"github.com/scribble-rs/scribble.rs/internal/game"
-	"github.com/scribble-rs/scribble.rs/internal/metrics"
-	"github.com/scribble-rs/scribble.rs/internal/state"
+	"github.com/scribble-rs/scribble.ng/internal/game"
+	"github.com/scribble-rs/scribble.ng/internal/metrics"
+	"github.com/scribble-rs/scribble.ng/internal/state"
 )
 
 var (

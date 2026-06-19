@@ -1,6 +1,6 @@
-# Scribble.rs - A Skribbl.io Clone
+# scribble.ng - A Skribbl.io Clone
 
-A fast, lightweight, and self-hosted alternative to Skribbl.io built with Go and modern web technologies. Scribble.rs is a multiplayer drawing and guessing game where players take turns drawing while others try to guess the word.
+A fast, lightweight, and self-hosted alternative to Skribbl.io built with Go and modern web technologies. scribble.ng is a multiplayer drawing and guessing game where players take turns drawing while others try to guess the word.
 
 ## 🎮 Features
 
@@ -153,7 +153,7 @@ sequenceDiagram
 
 ```mermaid
 graph TD
-    A["scribble.rs/"] -->|"cmd/"| B["scribblers/"]
+    A["scribble.ng/"] -->|"cmd/"| B["scribblers/"]
     A -->|"internal/"| C["api/"]
     A -->|"internal/"| D["config/"]
     A -->|"internal/"| E["frontend/"]
@@ -317,8 +317,8 @@ Persistent in-memory state management for game lobbies.
 
 #### 1. Clone the Repository
 ```bash
-git clone https://github.com/scribble-rs/scribble.rs.git
-cd scribble.rs
+git clone https://github.com/scribble-rs/scribble.ng.git
+cd scribble.ng
 ```
 
 #### 2. Download Dependencies
@@ -377,17 +377,17 @@ LOBBY_SETTING_BOUNDS_MAX_CLIENTS_PER_IP_LIMIT=24
 # Using linux.Dockerfile
 docker build -f linux.Dockerfile \
   --build-arg VERSION="v1.0.0" \
-  -t scribble.rs:latest .
+  -t scribble.ng:latest .
 
 # Using fly.Dockerfile (for Fly.io)
 docker build -f fly.Dockerfile \
   --build-arg VERSION="v1.0.0" \
-  -t scribble.rs:fly .
+  -t scribble.ng:fly .
 
 # Using windows.Dockerfile (Windows Nano Server)
 docker build -f windows.Dockerfile \
   --build-arg VERSION="v1.0.0" \
-  -t scribble.rs:windows .
+  -t scribble.ng:windows .
 ```
 
 ### Run Docker Container
@@ -398,7 +398,7 @@ docker run -d \
   -e PORT=8080 \
   -e ROOT_URL="https://scribble.example.com" \
   -e ALLOW_INDEXING=true \
-  scribble.rs:latest
+  scribble.ng:latest
 ```
 
 ## 🎯 Game Rules & Mechanics

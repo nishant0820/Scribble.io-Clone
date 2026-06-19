@@ -106,7 +106,7 @@ func initArabicTranslation() *Translation {
 		"بقي المشكل على حاله, تواصل مع المالك")
 	translation.put("error-connecting", "خطأ في الإتصال بالخادم")
 	translation.put("error-connecting-text",
-		"Scribble.rs لا يمكنه الإتصال بالخادم\n\nبما أن إتصالك "+
+		"scribble.ng لا يمكنه الإتصال بالخادم\n\nبما أن إتصالك "+
 			"بالأنترنت يبدو أنه يعمل, فإن\nالخادم أو الجدار الناري لم  "+
 			"يتم ضبطه بشكل صحيح\n\nلإعادة المحاولة, قم بإعادة تحميل الصفحة.")
 

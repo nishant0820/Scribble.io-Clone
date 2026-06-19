@@ -19,7 +19,7 @@ ARG VERSION="dev"
 # Copy actual codebase, since we only have the go.mod and go.sum so far.
 COPY . /app/
 ENV CGO_ENABLED=0
-RUN go build -trimpath -ldflags "-w -s -X 'github.com/scribble-rs/scribble.rs/internal/version.Version=$VERSION'" -tags timetzdata -o ./scribblers ./cmd/scribblers
+RUN go build -trimpath -ldflags "-w -s -X 'github.com/scribble-rs/scribble.ng/internal/version.Version=$VERSION'" -tags timetzdata -o ./scribblers ./cmd/scribblers
 
 #
 # Runner
