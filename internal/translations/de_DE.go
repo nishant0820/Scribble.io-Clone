@@ -99,7 +99,7 @@ func initGermanTranslation() {
 		"Problem weiterhin besteht, kontaktiere den Webmaster.")
 	translation.put("error-connecting", "Fehler beim Verbindungsaufbau")
 	translation.put("error-connecting-text",
-		"scribble.ng war nicht in der Lage eine Socket-Verbindung aufzubauen.\n\nZwar scheint dein "+
+		"scribbl.ng war nicht in der Lage eine Socket-Verbindung aufzubauen.\n\nZwar scheint dein "+
 			"Internet zu funktionieren, aber entweder wurden der Server oder \ndeine Firewall falsch konfiguriert.\n\n"+
 			"Versuche die Seite neu zu laden.")
 

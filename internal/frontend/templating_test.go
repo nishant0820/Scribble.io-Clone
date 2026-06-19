@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/scribble-rs/scribble.ng/internal/api"
-	"github.com/scribble-rs/scribble.ng/internal/config"
-	"github.com/scribble-rs/scribble.ng/internal/translations"
+	"github.com/scribble-rs/scribbl.ng/internal/api"
+	"github.com/scribble-rs/scribbl.ng/internal/config"
+	"github.com/scribble-rs/scribbl.ng/internal/translations"
 	"github.com/stretchr/testify/require"
 )
 

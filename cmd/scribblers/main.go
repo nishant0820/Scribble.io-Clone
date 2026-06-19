@@ -13,11 +13,11 @@ import (
 	"time"
 
 	"github.com/go-chi/cors"
-	"github.com/scribble-rs/scribble.ng/internal/api"
-	"github.com/scribble-rs/scribble.ng/internal/config"
-	"github.com/scribble-rs/scribble.ng/internal/frontend"
-	"github.com/scribble-rs/scribble.ng/internal/state"
-	"github.com/scribble-rs/scribble.ng/internal/version"
+	"github.com/scribble-rs/scribbl.ng/internal/api"
+	"github.com/scribble-rs/scribbl.ng/internal/config"
+	"github.com/scribble-rs/scribbl.ng/internal/frontend"
+	"github.com/scribble-rs/scribbl.ng/internal/state"
+	"github.com/scribble-rs/scribbl.ng/internal/version"
 )
 
 func main() {
@@ -26,7 +26,7 @@ func main() {
 		log.Fatalln("error loading configuration:", err)
 	}
 
-	log.Printf("Starting scribble.ng version '%s'\n", version.Version)
+	log.Printf("Starting scribbl.ng version '%s'\n", version.Version)
 
 	if cfg.CPUProfilePath != "" {
 		log.Println("Starting CPU profiling ....")

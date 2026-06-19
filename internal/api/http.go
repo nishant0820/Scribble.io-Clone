@@ -5,7 +5,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/scribble-rs/scribble.ng/internal/metrics"
+	"github.com/scribble-rs/scribbl.ng/internal/metrics"
 )
 
 // SetupRoutes registers the /v1/ endpoints with the http package.

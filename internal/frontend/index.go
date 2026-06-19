@@ -10,12 +10,12 @@ import (
 	"net/http"
 	txtTemplate "text/template"
 
-	"github.com/scribble-rs/scribble.ng/internal/api"
-	"github.com/scribble-rs/scribble.ng/internal/config"
-	"github.com/scribble-rs/scribble.ng/internal/game"
-	"github.com/scribble-rs/scribble.ng/internal/state"
-	"github.com/scribble-rs/scribble.ng/internal/translations"
-	"github.com/scribble-rs/scribble.ng/internal/version"
+	"github.com/scribble-rs/scribbl.ng/internal/api"
+	"github.com/scribble-rs/scribbl.ng/internal/config"
+	"github.com/scribble-rs/scribbl.ng/internal/game"
+	"github.com/scribble-rs/scribbl.ng/internal/state"
+	"github.com/scribble-rs/scribbl.ng/internal/translations"
+	"github.com/scribble-rs/scribbl.ng/internal/version"
 	"golang.org/x/text/cases"
 	"golang.org/x/text/language"
 
@@ -126,7 +126,7 @@ func (handler *SSRHandler) indexJs(writer http.ResponseWriter, request *http.Req
 	}
 }
 
-// indexPageHandler servers the default page for scribble.ng, which is the
+// indexPageHandler servers the default page for scribbl.ng, which is the
 // page to create or join a lobby.
 func (handler *SSRHandler) indexPageHandler(writer http.ResponseWriter, request *http.Request) {
 	translation, locale := determineTranslation(request)

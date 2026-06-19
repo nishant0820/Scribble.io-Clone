@@ -13,7 +13,7 @@ import (
 	"unicode/utf8"
 
 	"github.com/lxzan/gws"
-	"github.com/scribble-rs/scribble.ng/internal/sanitize"
+	"github.com/scribble-rs/scribbl.ng/internal/sanitize"
 
 	discordemojimap "github.com/Bios-Marcel/discordemojimap/v2"
 	petname "github.com/Bios-Marcel/go-petname"

@@ -41,7 +41,7 @@ jobs:
           # anymore, but I have had issues with this in the past) :D
           CGO_ENABLED: 0
         run: |
-          go build -trimpath -ldflags "-w -s -X 'github.com/scribble-rs/scribble.ng/internal/version.Version=$(git describe --tags --dirty)'" -o ${{ matrix.binary_name }} ./cmd/scribblers
+          go build -trimpath -ldflags "-w -s -X 'github.com/scribble-rs/scribbl.ng/internal/version.Version=$(git describe --tags --dirty)'" -o ${{ matrix.binary_name }} ./cmd/scribblers
 
       - name: Upload build artifact
         uses: actions/upload-artifact@v4

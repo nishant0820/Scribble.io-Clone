@@ -105,7 +105,7 @@ func initSpainTranslation() {
 		"Si el problema persiste, contacte con el webmaster..")
 	translation.put("error-connecting", "Error al conectar con el servidor")
 	translation.put("error-connecting-text",
-		"scribble.ng no se pudo establecer una conexión de socket.\n\nAunque su conexión "+
+		"scribbl.ng no se pudo establecer una conexión de socket.\n\nAunque su conexión "+
 			"a Internet parece funcionar, es posible que el servidor\no su firewall no se hayan "+
 			"configurado correctamente.\n\nPara volver a intentarlo, recarga la página.")
 

@@ -40,7 +40,7 @@ jobs:
           registry: docker.io
 
           dockerfile: ${{ matrix.file }}
-          image: biosmarcel/scribble.ng
+          image: biosmarcel/scribbl.ng
           buildArgs: ${{ matrix.buildArgs }}
           platform: ${{ matrix.platforms }}
           tags:  ${{ matrix.tags }}

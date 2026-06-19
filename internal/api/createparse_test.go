@@ -4,8 +4,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/scribble-rs/scribble.ng/internal/config"
-	"github.com/scribble-rs/scribble.ng/internal/game"
+	"github.com/scribble-rs/scribbl.ng/internal/config"
+	"github.com/scribble-rs/scribbl.ng/internal/game"
 	"golang.org/x/text/cases"
 	"golang.org/x/text/language"
 )

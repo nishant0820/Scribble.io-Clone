@@ -3,9 +3,9 @@ package frontend
 import (
 	"testing"
 
-	"github.com/scribble-rs/scribble.ng/internal/api"
-	"github.com/scribble-rs/scribble.ng/internal/config"
-	"github.com/scribble-rs/scribble.ng/internal/game"
+	"github.com/scribble-rs/scribbl.ng/internal/api"
+	"github.com/scribble-rs/scribbl.ng/internal/config"
+	"github.com/scribble-rs/scribbl.ng/internal/game"
 )
 
 func TestCreateLobby(t *testing.T) {

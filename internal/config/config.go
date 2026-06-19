@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/caarlos0/env/v11"
-	"github.com/scribble-rs/scribble.ng/internal/game"
+	"github.com/scribble-rs/scribbl.ng/internal/game"
 	"github.com/subosito/gotenv"
 )
 

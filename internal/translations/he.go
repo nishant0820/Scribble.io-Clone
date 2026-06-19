@@ -116,7 +116,7 @@ func initHebrewTranslation() {
 		" ...\n\nוודא שהחיבור לאינטרנט תקין")
 	translation.put("error-connecting", "שגיאה בהתחברות לשרת")
 	translation.put("error-connecting-text",
-		"scribble.ng לא הצליח ליצור חיבור Socket.\n\nלמרות שנראה שחיבור האינטרנט שלך עובד, או שה\nהשרת או חומת האש שלך לא הוגדרו כראוי.\n\nכדי לנסות שוב, טען מחדש את הדף.")
+		"scribbl.ng לא הצליח ליצור חיבור Socket.\n\nלמרות שנראה שחיבור האינטרנט שלך עובד, או שה\nהשרת או חומת האש שלך לא הוגדרו כראוי.\n\nכדי לנסות שוב, טען מחדש את הדף.")
 
 	translation.put("message-too-long", "ההודעה ארוכה מידי")
 	translation.put("server-shutting-down-title", "השרת בתהליך כיבוי")

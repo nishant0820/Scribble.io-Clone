@@ -116,7 +116,7 @@ func initFrenchTranslation() *Translation {
 		"problème persiste, contactez le webmaster.")
 	translation.put("error-connecting", "Erreur de connexion au serveur")
 	translation.put("error-connecting-text",
-		"scribble.ng n'a pas pu établir une connexion socket.\n\nBien que votre connexion internet "+
+		"scribbl.ng n'a pas pu établir une connexion socket.\n\nBien que votre connexion internet "+
 			"semble fonctionner, soit le\nserveur, soit votre pare-feu n'a pas "+
 			"été configuré correctement.\n\nPour réessayer, rechargez la page.")
 	translation.put("message-too-long", "Votre message est trop long.")

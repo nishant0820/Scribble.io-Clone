@@ -5,8 +5,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/scribble-rs/scribble.ng/internal/config"
-	"github.com/scribble-rs/scribble.ng/internal/game"
+	"github.com/scribble-rs/scribbl.ng/internal/config"
+	"github.com/scribble-rs/scribbl.ng/internal/game"
 )
 
 var (
